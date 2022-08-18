@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bg{
+    background-image: url("login.jpg");
+    display: grid;
+    height: 100vh;
+    width: 100wh;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+  
+  .container {
+    position: absolute;
+    place-self: center;
+    /* vertical-align: middle; */
+    /* left: 0; */
+    margin: 30px;
+    max-width: 300px;
+    padding: 12px;
+    background-color: #ffffffc9;
+    border-radius: 5px;
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 65%;
+    padding: 0px;
+    margin: 10px 7px 22px 10px;
+    /* border: none; */
+    background:transparent;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #dd3d73;
+    color: white;
+    padding: 8px 0px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }

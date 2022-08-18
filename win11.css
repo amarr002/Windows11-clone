@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover; 
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+.mainbody{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 14fr 1fr;
+}
+.content{
+    display: grid;
+    background-image: url(bg.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+.startmenu{
+    position: absolute;
+    bottom: -255px;
+    place-self: center;
+    transition: all 0.3s ease-in;
+    z-index: 100;
+}
+.startmenu img{
+    height: 250px;
+    border-radius: 5px;
+}
+.searchmenu{
+    position: absolute;
+    place-self: center;
+    bottom: -255px;
+    transition: all 0.3s ease-in;
+    z-index: 100;
+}
+.searchmenu img{
+    height: 250px;
+    border-radius: 5px;
+}
+.fileexplorer{
+    position: absolute;
+    place-self: center;
+    bottom: -400px;
+    transition: all 0.3s ease-in;
+    z-index: 100;
+}
+.fileexplorer img{
+    height: 350px;
+    border-radius: 5px;
+}
+.winstore{
+    position: absolute;
+    place-self: center;
+    bottom: -400px;
+    transition: all 0.3s ease-in;
+    z-index: 100;
+}
+.winstore img{
+    height: 350px;
+    border-radius: 5px;
+}
+.intexplorer{
+    position: absolute;
+    place-self: center;
+    bottom: -400px;
+    transition: all 0.3s ease-in;
+    z-index: 100;
+}
+.intexplorer img{
+    height: 350px;
+    border-radius: 5px;
+}
+.taskbar{
+    /* width: 100%;
+    position: absolute;
+    bottom: 0; */
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+    /* justify-content: center; */
+    background-color: #f3f3f3 ;
+}
+.taskbarleft{
+    display: grid;
+    
+}
+.taskbarright{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.leftcontent{
+    width: 30%;
+    display: grid;
+    align-self: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    left: 49%;
+}
+.taskicon img{
+    width: 70%;
+}
+.rightcontent{
+    /* justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 80%; */
+    /* width: 10%; */
+    display: grid;
+    /* place-self: center; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* position: absolute; */
+}
+.righticon{
+    display: grid;
+}
+.righticon img{
+    width: 60%;
+    place-self: center;
+}
+.contenticons{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 20%;
+    grid-auto-flow: column;
+    /* grid-gap: 10px; */
+}
+.deskicons{
+    display: grid;
+    /* grid-template-rows: 2fr 1fr; */
+}
+.deskicons img{
+    width: 52%;
+    place-self: center;
+}
+.imgindicon{
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+.indcontext{
+    font-size: 8.6px;
+    display: grid;
+    color: white;
+    place-content: center;
+    font-family: Roboto;
+}
+.righttime{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+#thetime{
+    place-self: center;
+    font-size: 10px;
+}
+#thedate{
+    font-size: 10px;
+    place-self: center;
+}
